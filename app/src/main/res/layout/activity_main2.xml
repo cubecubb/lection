@@ -1,4 +1,4 @@
-<TableLayout
+<TableLayout xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android = "http://schemas.android.com/apk/res/android">
@@ -6,18 +6,42 @@
     <TableRow
         android:layout_width="137dp"
         android:layout_height="178dp">
+
         <Button
             android:layout_width="137dp"
             android:layout_height="178dp"
-            android:text="Text"/>
+            android:text="Text"
+            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+        <Switch
+            android:layout_width="137dp"
+            android:layout_height="178dp"
+            android:text="@string/kkkk"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="178dp"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ImageContrastCheck" />
+    </TableRow>
+    <TableRow
+        android:layout_width="137dp"
+        android:layout_height="178dp">
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="178dp"
+            android:text="@string/bb"/>
         <Switch
             android:layout_width="137dp"
             android:layout_height="178dp"
             android:text="Text"/>
+
         <ImageView
             android:layout_width="137dp"
             android:layout_height="178dp"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ImageContrastCheck" />
     </TableRow>
     <TableRow
         android:layout_width="137dp"
@@ -41,23 +65,7 @@
         <Button
             android:layout_width="137dp"
             android:layout_height="178dp"
-            android:text="Text"/>
-        <Switch
-            android:layout_width="137dp"
-            android:layout_height="178dp"
-            android:text="Text"/>
-        <ImageView
-            android:layout_width="137dp"
-            android:layout_height="178dp"
-            android:src="@mipmap/ic_launcher"/>
-    </TableRow>
-    <TableRow
-        android:layout_width="137dp"
-        android:layout_height="178dp">
-        <Button
-            android:layout_width="137dp"
-            android:layout_height="178dp"
-            android:text="Text"/>
+            android:text="@string/gffg"/>
         <Switch
             android:layout_width="137dp"
             android:layout_height="178dp"

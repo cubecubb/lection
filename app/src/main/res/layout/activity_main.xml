@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
@@ -21,7 +22,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="текст"
+                android:text="@string/aslsal"
                 android:textAlignment="center"
                 android:textSize="60px"
                 />
@@ -32,7 +33,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="кнопка"/>
+                android:text="@string/sad"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -42,11 +43,14 @@
             android:layout_width="400px"
             android:layout_height="200px"
             android:text="текст"/>
+
         <Button
             android:layout_width="300px"
             android:layout_height="100px"
+            android:layout_marginLeft="-300px"
             android:layout_marginTop="250px"
-            android:layout_marginLeft="-300px"/>
+            android:contentDescription="@string/app_name"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
     <LinearLayout
@@ -78,7 +82,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="text"/>
+                android:text="@string/textff"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
